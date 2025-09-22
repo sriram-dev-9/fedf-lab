@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Table</title>
+
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 20px auto;
+            font-family: Arial, sans-serif;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #333;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+            font-weight: bold;
+        }
+        .time-slot {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        .lunch-break {
+            background-color: #FFE4B5;
+            font-weight: bold;
+            color: #8B4513;
+        }
+        .subject {
+            background-color: #E6F3FF;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <h1>Time Table of CSE</h1>
+    
+        </thead>
+        <tbody>
+            <tr>
+                <th>S. No</th>
+                <th>Sunday</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+            </tr>
+            <tr>
+                <td>8:00am-10:00am</td>
+                <td>-</td>
+                <td rowspan="2">FEDF</td>
+                <td rowspan="2">CN</td>
+                <td rowspan="2">AIML</td>
+                <td rowspan="2">DAA</td>
+                <td rowspan="2">DAA</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>10:00am-12:00pm</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>12:00pm-1:00pm</td>
+                <td colspan="7">LUNCH BREAK</td>
+            </tr>
+            <tr>
+                <td>1:00pm-3:00pm</td>
+                <td>-</td>
+                <td rowspan="2">Java</td>
+                <td>-</td>
+                <td>CN</td>
+                <td>FEDF</td>
+                <td>-</td>
+                <td>Java</td>
+            </tr>
+            <tr>
+                <td>3:00pm-5:00pm</td>
+                <td>-</td>
+                <td>-</td>
+                <td>AIML</td>
+                <td>-</td>
+                <td>-</td>
+                <td>AIML</td>
+            </tr>
+            <tr>
+                <td>5:00pm-7:00pm</td>
+                <td>-</td>
+                <td>CN</td>
+                <td>Java</td>
+                <td>FEDF</td>
+                <td>-</td>
+                <td>FEDF</td>
+                <td>AIML</td>
+            </tr>
+
+        </tbody>
+    </table>
+    
+    
+</body>
+</html>
